@@ -7,7 +7,7 @@ Our research proposes a modular background-assistance framework that integrates 
 
 To ensure full reproducibility and improve compatibility with modern 3D object detection frameworks, we converted all 3D bounding box annotations into the standard **KITTI format** (individual `.txt` files containing normalized bounding box parameters). This extension allows the data to be loaded directly into popular training pipelines without requiring additional pre-processing scripts.
 
-## 2. Class Conversion Mechanism (Taxonomy Merging)
+## 2. Class Conversion Mechanism
 Due to the extreme class imbalance inherent in real-world traffic scenarios within the TUMTraf-I dataset (e.g., the number of standard `Car` instances vastly overwhelms minority classes like `Trailer` or `Emergency Vehicle`), training the network on the original 10 independent classes often leads to severe convergence instability and overfitting.
 
 To address this, we implemented a pragmatic mapping mechanism that concentrates the original 10 categories into **3 functional super-classes** to ensure training stability:
