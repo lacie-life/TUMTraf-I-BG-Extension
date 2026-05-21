@@ -1,6 +1,6 @@
 # TUMTraf-I Background-Assisted Detection Extension
 
-This repository provides the **modified label files** and **frame indices** used in our research on background-assisted 3D object detection for stationary roadside LiDAR systems. This extension is designed to be used in conjunction with the official [TUMTraf Intersection Dataset (TUMTraf-I)](https://innovation-mobility.com/en/project-providentia/tumtraf-dataset/).
+This repository provides the **modified label files** and **frame indices** used in our research on background-assisted 3D object detection for stationary roadside LiDAR systems. This extension is designed to be used in conjunction with the official [TUMTraf Intersection Dataset (TUMTraf-I)](https://innovation-mobility.com/en/project-providentia/a9-dataset/).
 
 ## 1. Overview
 Our research proposes a modular background-assistance framework that integrates environmental spatial priors into deep learning models to enhance 3D detection performance, particularly for small or heavily occluded objects. The original TUMTraf-I dataset provides annotations in the OpenLABEL format, which utilizes a complex, nested JSON structure. 
@@ -31,5 +31,5 @@ To address this, we implemented a pragmatic mapping mechanism that concentrates 
 ```
 
 ## 4. Acknowledgments
-We sincerely thank the creators of the official [TUMTraf Intersection Dataset](https://innovation-mobility.com/en/project-providentia/tumtraf-dataset/) for providing the raw data. 
+We sincerely thank the creators of the official [TUMTraf Intersection Dataset](https://innovation-mobility.com/en/project-providentia/a9-dataset/) for providing the raw data. 
 
